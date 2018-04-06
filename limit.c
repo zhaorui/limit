@@ -29,8 +29,8 @@ int main(int argc, const char * argv[]) {
     print_type_s(long, LONG_MIN, LONG_MAX);
     print_type_u(unsigned long, 0, ULONG_MAX );
     
-    print_type_s(long long, LONG_LONG_MIN, LONG_LONG_MAX);
-    print_type_u(unsigned long long, 0, ULONG_LONG_MAX);
+    print_type_s(long long, LLONG_MIN, LLONG_MAX);
+    print_type_u(unsigned long long, 0, ULLONG_MAX);
     
     print_float_type(float, FLT_MIN, FLT_MAX);
     print_float_type(double, DBL_MIN, DBL_MAX);
